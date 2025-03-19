@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Ex6 {
     internal class Program {
         static void Main(string[] args) {
-            Console.Write("Cate numere doriti sa introduceti? ");
+            Console.Write("Câte numere doriti sa introduceti? ");
             int totalOfNumbers = int.Parse(Console.ReadLine());
             bool[] exist = new bool[1000];
 
